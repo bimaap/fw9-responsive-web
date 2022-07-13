@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #FAFCFF;
+}
+
+.slice1{
+    height: 1044px;
+    display: flex;
+}
+
+.slice1 .left{
+    flex: 1;
+}
+
+.slice1 .right{
+    flex: 1;
+}
+
+.slice1 .left .wellcome{
+    width: fit-content;
+    margin: 63px 0px 0px 150px;
+}
+
+.slice1 .left .wellcome .logo{
+    color: #6379F4;
+    font-size: 29px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 141px;
+}
+
+.slice1 .left .wellcome .moto{
+    color: #3A3D42;
+    font-size: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+color{
+    color: #6379F4;
+}
+
+.slice1 .left .wellcome .doc{
+    color: #3A3D42;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+button{
+    border: none;
+    outline: none;
+}
+
+.slice1 .left .wellcome button{
+    background-color: #6379F4;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 16px 45px 16px 44px;
+}
+
+.slice1 .right .user-account{
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    padding: 55px 150px 0px 0px;
+}
+
+.slice1 .right .user-account button{
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    border-radius: 12px;
+    width: 120px;
+    height: 48px;
+}
+
+.slice1 .right .user-account .login{
+    margin-right: 30px;
+    background-color: #6379F4;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+.slice1 .right .user-account .register{
+    background-color: #FFFFFF;
+    color: #6379F4;
+    border: 2px solid #FFFFFF;
+}
+
+
+.slice1 .right .layer{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.slice1 .right .phone{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 118px 150px 0px 0px;
+}
+
+.slice2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(71, 58, 209, 0.06);
+    height: 759px;
+}
+
+.slice2 .title{
+    color: #3A3D42;
+    font-size: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    margin: 80px 0px 30px 0px;
+}
+
+.slice2 .doc{
+    color: #3A3D42;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.slice2 .container{
+    display: flex;
+    gap: 20px;
+}
+
+.slice2 .container .box{
+    width: 344px;
+    height: 367px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.slice2 .container .box .dot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(71, 58, 209, 0.1);
+    border-radius: 50%;
+}
+
+.slice2 .container .box .title{
+    margin: 0px 0px;
+    color: #3A3D42;
+    font-size: 24px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.slice2 .container .box .doc{
+    margin: 0px 30px;
+    color: #3A3D42;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.slice3{
+    display: flex;
+    height: fit-content;
+    margin: 100px 0px;
+}
+
+.slice3 .left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.slice3 .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.slice3 .left .title{
+    color: #3A3D42;
+    font-size: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+}
+
+.slice3 .left .doc{
+    color: #3A3D42;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.slice3 .right .box{
+    width: 173px;
+    height: 120px;
+}
+
+.slice4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1015px;
+    background: rgba(71, 58, 209, 0.06);
+    gap: 70px;
+}
+
+.slice4 .box{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 620px;
+}
+
+.slice4 .box .title{
+    color: #3A3D42;
+    font-size: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+}
+
+.slice4 .box .list{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    height: 127px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 25px;
+    gap: 15px;
+}
+
+.slice4 .box .list .list-number{
+    display: flex;
+    gap: 15px;
+}
+
+.slice4 .box .list .list-number span{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #3A3D42;
+}
+
+.slice4 .box .list .doc{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(58, 61, 66, 0.9);
+}
+
+footer{
+    background: #6379F4;
+    padding: 80px 150px;
+}
+
+footer .top .logo{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+footer .top{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    margin-bottom: 30px;
+}
+
+footer .top .doc{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(239, 239, 239, 0.75);
+    width: 285px;
+    margin-bottom: 50px;
+}
+
+footer .btm{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .btm .left{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(239, 239, 239, 0.9);
+}
+
+footer .btm .right{
+    display: flex;
+    gap: 40px;
+}
+
+footer .btm .right span{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #EFEFEF;
+}
