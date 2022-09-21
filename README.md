@@ -16,9 +16,9 @@ A e-wallet which transfer and topup money.
 </div>
 
 ### Built With
-- [HTML](https://reactnative.dev/)
-- [Bootstrap](https://tailwindcss.com/)
-- [Feather Icon](https://tailwindcss.com/)
+- [HTML](https://devdocs.io/html/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Feather Icon](https://feathericons.com/)
 
 ### How to run app?
 1. Clone this project to your local computer
