@@ -71,9 +71,8 @@ header{
 
 .content{
     flex: 1;
-    padding: 0px 150px;
-    display: flex;
     padding: 40px 150px;
+    display: flex;
     gap: 20px;
 }
 
@@ -242,7 +241,8 @@ footer{
 
 .main .control .graphic .chart{
     height: 100%;
-    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
 }
 
 .main .control .fw-card{
@@ -298,4 +298,44 @@ input{
     border-radius: 10px;
     text-align: center;
     font-size: 1.5rem;
+}
+
+@media (max-width: 1350px) {
+    
+}
+
+@media (max-width: 1199.98px) {
+    body{
+        height: auto;
+    }
+    .nav span{
+        display: none;
+    }
+    .nav{
+        flex: 0 !important;
+    }
+    .nav a{
+        width: fit-content !important;
+    }
+    .content{
+        padding: 10px;
+    }
+    .dashboard .control{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        padding: 0 20px !important;
+    }
+    footer{
+        padding: 20px;
+        height: auto;
+    }
+    .option a{
+        width: 200px !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    
 }
